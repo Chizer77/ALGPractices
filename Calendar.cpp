@@ -4,6 +4,7 @@
 //2000年1月1日是星期六
 
 #include<iostream>
+#include<iomanip>
 using namespace std;
 const char wstr[][20] = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
 
@@ -17,7 +18,7 @@ int DayOfYear(int year) {
 //计算month月在year年的天数
 int DayOfMonth(int month, int year) {
     if(month == 2) 
-        return DayOfYear(year) == 36636 ? 29 : 28;
+        return DayOfYear(year) == 366 ? 29 : 28;
     int d;
     switch(month) {
         case 1:
@@ -56,7 +57,8 @@ int main() {
                 n = 0;
             }
         }
-        cout << year << '-' << month << '-' << day << ' ' << wstr[week] << '\n';
+        cout.fill('0');
+        cout << setw(4) << year << '-' << setw(2) << month << '-' << setw(2) << day << ' ' << wstr[week] << '\n';
         cin >> n;
     }
 }
