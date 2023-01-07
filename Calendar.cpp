@@ -38,7 +38,7 @@ int main() {
     cin >> n;
     while(n >= 0) {
         int year, month, day, week;
-        week = n % 7;   //星期
+        week = n % 7;   //星期数
         year = 2000;
         month = 1;
         day = 1;
