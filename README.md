@@ -12,4 +12,10 @@
 3. 乘法持久性(PersistentNumbers),高精度乘法运算，贪心
 
 
-4. 
+4. 输出多项式(PolynomialShowdown)
+
+
+5. 矩阵运算(Error Correction)
+
+
+6. 排版更改(TEX Quotes),字符串处理
