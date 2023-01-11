@@ -7,6 +7,7 @@
 
 #include<iostream>
 #include<cstring>
+#include<string>
 using namespace std;
 int Num[3][1000];   //  Num[0][0]存储被加数长度，Num[0][1...Num[0][0]]储存被加数；Num[1][0]存储加数长度，Num[1][1...Num[1][0]]储存加数
                     //  ，Num[2][0]储存和数长度，Num[2][1...Num[2][0]]储存和数
@@ -51,9 +52,9 @@ int main() {
         Add();
         //反向输出，并去除前导零
         int flag = 0;
-        for(int i = 1; i <= Num[2][0]; i++) {
-            if(Num[2][i] > 0) flag = 1;
-            if(flag) cout << Num[2][i];
+        for(int j = 1; j <= Num[2][0]; j++) {
+            if(Num[2][j] > 0) flag = 1;
+            if(flag) cout << Num[2][j];
         }
         cout << endl;
     }
