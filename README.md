@@ -1,7 +1,11 @@
 # ALGPractices
 ### 算法练习
 **以下为题单：**
-* 练习一：
+* 经典算法(MyPractice)：
+>1. 最长回文子串(LongestPalindromicSubstring), 马拉车算法（Manacher算法）
+
+#
+* 练习一(Practice01)：
 >1. 日期计算(Canlendar)
 >
 >
@@ -22,6 +26,6 @@
 >
 >7. 字符串模式匹配(BlueJeans), Brute Force算法
 #
-* 练习二：`
+* 练习二(Practice02)：`
 >1. 
 
