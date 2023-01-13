@@ -147,7 +147,7 @@ string longestPalindrome_method03(string s) {
 
 int main() {
     string s;
-    cin >> s;
+    cin >> s;   //输入字符串
 
     // 方法一
     // cout << longestPalindrome_method01(s);
