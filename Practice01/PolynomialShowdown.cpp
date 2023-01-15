@@ -16,6 +16,8 @@
 //输出
 //输出给出格式化的多项式，每个多项式一行。
 
+//来源：POJ 1555，ZOJ 1720，UVA 392
+
 #include<iostream>
 
 using namespace std;

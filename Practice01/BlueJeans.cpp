@@ -8,6 +8,8 @@
 // 如果最长的相同的碱基子序列的长度小于3，则输出“no significant commonalities” 来代替碱基子序列。
 // 如果相同最长长度的子序列有多个，则仅输出按字母排序的第一个。
 
+//来源：POJ 3080，ZOJ 2784，UVA 3628
+
 #include<iostream>
 #include<cstring>
 using namespace std;

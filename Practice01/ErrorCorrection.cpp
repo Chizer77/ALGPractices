@@ -12,6 +12,8 @@
 //对于输入的每个矩阵，输出一行。如果该矩阵具有奇偶均势特性，则输出“OK”。
 // 如果奇偶均势特性可以通过改变1个数字产生，则输出“Change bit (i,j)”，其中i是要改变数字所在的行，j是要改变数字所在的列；否则输出“Corrupt”。
 
+//来源：POJ 2260，ZOJ 1949
+
 #include<iostream>
 using namespace std;
 #define MAXN 512    //矩阵容量

@@ -5,6 +5,8 @@
 //  对每个测试用例，输出一行，仅包含一个整数，将两个反向数进行求和，之后再反向。在输出时把前导0略去。
 //  本题设定没有0因为反向而丢失
 
+//来源：POJ 1504，ZOJ 2001，UVA 713
+
 #include<iostream>
 #include<cstring>
 #include<string>

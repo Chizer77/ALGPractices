@@ -3,6 +3,8 @@
 //其中 “DayOfWeek”必须是下面中的一个：“Sunday”，“Monday”，“Tuesday”，“Wednesday”，“Thursday”，“Friday”或“Saturday”。
 //2000年1月1日是星期六
 
+//来源：POJ 2080，ZOJ 2420
+
 #include<iostream>
 #include<iomanip>
 using namespace std;
