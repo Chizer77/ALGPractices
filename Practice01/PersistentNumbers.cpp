@@ -11,10 +11,10 @@
 
 using namespace std;
 
-#define N 1010
-char str[N], ans[N];    //数串str[], 整商串ans[]
+#define maxn 1010
+char str[maxn], ans[maxn];    //数串str[], 整商串ans[]
 
-int num[3 * N]; //存储满足条件的整数
+int popunum[3 * maxn]; //存储满足条件的整数
 
 int count(int i) {  //计算和返回str[]代表的整数除以i的结果；若能整除则返回1和整商串str[],否则返回0
     int j, mod = 0, k = 0;  //当前余数mod，ans[]的指针k
@@ -45,15 +45,15 @@ int main() {
         }
         for(i = 9; i > 1; i--) {
             while(count(i)) {//若当前数能被9整除，则i进入num[], 直到当前数无法整除i为止
-                num[j++] = i;
+                popunum[j++] = i;
             }
         }
         if(strlen(str) > 1) {   //说明没有被除尽
-            cout << "There is no such number.\n";
+            cout << "There is minn such number.\n";
             continue;
         }
         while(j > 0) {  //逆向输出num[],原因：要找到符合条件的最小数
-            cout << num[--j];
+            cout << popunum[--j];
         }
         cout << '\n';
     }
